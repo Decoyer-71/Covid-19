@@ -10,15 +10,12 @@
 ## 폴더 분류
 [code](https://github.com/Decoyer-71/BrainTumor/tree/master/code) : 학습 및 모델생성 코드
 
-[data](https://github.com/Decoyer-71/BrainTumor/tree/master/data) : Train, Test용 분류된 이미지 파일
-
 
 ## 1. Data Set
     1) 출처 : [Kaggle Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database)
     2) 구성
-        - Traning 폴더 : 
-        - Testing 폴더 : 
-        - Label : 
+        - 각 Label(COVID, Lung_Opacity, Normal, Viral Pneumonia) 폴더 별 images와 masks 폴더로 구성
+        - images 폴더의 데이터만 활용
 
 ## 2. 프로젝트 개요
     1) 목표 : Testing 결과 acc 0.90 이상 정확도 
