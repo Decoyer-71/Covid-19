@@ -25,7 +25,23 @@
         - Google colab(fitting 용)
         
 ## 아키텍처별 실험(Goole colab)
+    - 공통사항 : FC계층에 대해 세부 수치변경을 통해 목표달성 모델 생성(FineTuning)
+### 1) Mobilenet 
+        (1) Hiddenlayer, Dropout 미설정 / Optimizer : Adam(1e-4) / epochs : 30
+            가. Evaluate 결과 : loss: 0.7634, acc: 0.9360
+            나. 소요시간 : 0:35:41
+            다. 평가 : 과적합 심함, validation_acc 그래프로 보아 learning_rate 조절이 필요함
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/64b15dfd-7675-40b6-8c8a-298782f0ee2f)
 
+        (2) Hiddenlayer : 3(node : 128), Dropout : 0.25 / Optimizer : Adam(1e-5) / epochs : 30
+            가. Evaluate 결과 : loss 0.5023, acc 0.9246
+            나. 소요시간 : 0:34:58
+            다. 평가 : validation_acc 그래프가 안정적이고 정확도가 90%를 넘으나, 여전히 과적합이 심하다.
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/deda14fb-f5d4-4ac0-afba-cab8aa901bae)
 
+        (3) Hiddenlayer : 3(node : 128), Dropout : 0.3 / Optimizer : Adam(1e-5) / epochs : 30
+            가. Evaluate 결과 : 
+            나. 소요시간 : 
+            다. 평가 : 
 
 ## 결론
