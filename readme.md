@@ -45,5 +45,11 @@
             다. 평가 : 정확도 92%, 과적합을 이전에 비해서 약간 해소하였음.
 ![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/7d240a90-cce1-4864-b996-aba98b27efa0)
 
+### 2) Xception
+        (1) Hiddenlayer, Dropout 미설정 / Optimizer : Adam(1e-4) / epochs : 30
+            가. Evaluate 결과 : 
+            나. 소요시간 : 0:35:41
+            다. 평가 : 과적합 심함, validation_acc 그래프로 보아 learning_rate 조절이 필요함
+
 
 ## 결론
