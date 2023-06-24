@@ -53,10 +53,17 @@
 ![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/8f0c38d0-ea9d-466c-bab1-acf5bb4bd070)
 
         (2) Hiddenlayer : 3(node : 128), Dropout : 0.25 / Optimizer : Adam(1e-4) / epochs : 20
-            가. Evaluate 결과 : 
-            나. 소요시간 : 
-            다. 평가 :  시간 소요를 줄이기 위해 epoch는 20으로 조정.
+            가. Evaluate 결과 : loss 0.6268, acc 0.9293
+            나. 소요시간 : 1:21:23
+            다. 평가 :  시간 소요를 줄이기 위해 epoch는 20으로 조정, 목표점수를 달성했으나 과적합이 심함
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/10ae9e7d-6349-48b1-b658-bb4354004bac)
 
+        (3) Hiddenlayer : 3(node : 128), Dropout : 0.5 / Optimizer : Adam(1e-4) / epochs : 20
+            가. Evaluate 결과 : loss 0.7406, acc 0.9230
+            나. 소요시간 : 1:21:22
+            다. 평가 :  과적합이 조금 줄었으나, 크게 해소되지 않음. learning_rate를 더 높여서 시도해볼 예정
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/e61879d8-1705-4522-9bf9-f536c04021ec)
+            
 
 
 ## 결론
