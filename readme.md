@@ -39,9 +39,11 @@
             다. 평가 : validation_acc 그래프가 안정적이고 정확도가 90%를 넘으나, 여전히 과적합이 심하다.
 ![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/deda14fb-f5d4-4ac0-afba-cab8aa901bae)
 
-        (3) Hiddenlayer : 6(node : 128), Dropout : 0.6 / Optimizer : Adam(1e-5) / epochs : 40
-            가. Evaluate 결과 : 
-            나. 소요시간 : 
-            다. 평가 : 
+        (3) Hiddenlayer : 3(node : 128), Dropout : 0.5 / Optimizer : Adam(1e-5) / epochs : 35
+            가. Evaluate 결과 : loss 0.5867, acc 0.9279
+            나. 소요시간 : 0:39:0
+            다. 평가 : 정확도 92%, 과적합을 이전에 비해서 약간 해소하였음.
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/7d240a90-cce1-4864-b996-aba98b27efa0)
+
 
 ## 결론
