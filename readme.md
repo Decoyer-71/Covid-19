@@ -47,9 +47,16 @@
 
 ### 2) Xception
         (1) Hiddenlayer, Dropout 미설정 / Optimizer : Adam(1e-4) / epochs : 30
+            가. Evaluate 결과 : loss 0.5003,  acc 0.9232
+            나. 소요시간 : 1:59:25
+            다. 평가 : 과적합 심함, 목표 점수는 넘었으나 mobilnet과 마찬가지로 node를 추가하면서 dropout으로 과적합을 줄일 필요가 있음.
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/8f0c38d0-ea9d-466c-bab1-acf5bb4bd070)
+
+        (2) Hiddenlayer : 3(node : 128), Dropout : 0.25 / Optimizer : Adam(1e-4) / epochs : 20
             가. Evaluate 결과 : 
-            나. 소요시간 : 0:35:41
-            다. 평가 : 과적합 심함, validation_acc 그래프로 보아 learning_rate 조절이 필요함
+            나. 소요시간 : 
+            다. 평가 :  시간 소요를 줄이기 위해 epoch는 20으로 조정.
+
 
 
 ## 결론
