@@ -61,7 +61,7 @@
         (3) Hiddenlayer : 3(node : 128), Dropout : 0.5 / Optimizer : Adam(1e-4) / epochs : 20
             가. Evaluate 결과 : loss 0.7406, acc 0.9230
             나. 소요시간 : 1:21:22
-            다. 평가 :  과적합이 조금 줄었으나, 크게 해소되지 않음. learning_rate를 더 높여서 시도해볼 예정
+            다. 평가 :  과적합이 조금 줄었으나, 크게 해소되지 않음. Dropout을 더 높여서 시도해볼 예정
 ![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/e61879d8-1705-4522-9bf9-f536c04021ec)
             
 
