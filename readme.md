@@ -79,9 +79,10 @@
 ![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/0695ae8a-48eb-4106-90ad-8249d492d93b)
 
         (2) Hiddenlayer : 3(node : 128), Dropout : 0.25 / Optimizer : Adam(1e-4) / epochs : 20
-            가. Evaluate 결과 : loss 0.6268, acc 0.9293
-            나. 소요시간 : 1:21:23
-            다. 평가 :  시간 소요를 줄이기 위해 epoch는 20으로 조정, 목표점수를 달성했으나 과적합이 심함
+            가. Evaluate 결과 : loss 0.6605, acc: 0.9260
+            나. 소요시간 : 0:58:51
+            다. 평가 :  learning_rate 수치를 추가로 더 낮추고, Dropout 수치 상향조정 필요
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/fc9a9f70-65f2-48c2-a121-805b1f3e4471)
 
 
 
@@ -89,3 +90,9 @@
 
 
 ## 결론
+
+### 1) mobilenet은 resnet50, xception에 비해 소요시간이 적은 장점을 가진다. 
+
+### 2) 세 아키텍쳐 모두 90%이상의 정확도를 보이나 과적합 문제가 다소 발생했으며, Xception 아키텍쳐의 경우 다른 두 모델에 비해 과적합 해소에 상대적인 어려움이 있다.
+
+### 3) Renet50의 경우 두 모델보다 과적합이 상대적으로 적어보이나, 추가적인 실험을 통해 검증이 더 필요하다. 
