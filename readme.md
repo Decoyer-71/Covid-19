@@ -84,6 +84,12 @@
             다. 평가 :  learning_rate 수치를 추가로 더 낮추고, Dropout 수치 상향조정 필요
 ![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/fc9a9f70-65f2-48c2-a121-805b1f3e4471)
 
+        (3) Hiddenlayer : 3(node : 128), Dropout : 0.5 / Optimizer : Adam(2e-5) / epochs : 20
+            가. Evaluate 결과 : loss 0.9578, acc 0.9074
+            나. 소요시간 : 0:55:09
+            다. 평가 :  목표를 달성하였고 과적합이 줄었지만, 낮은 수치의 학습률에도 그래프가 고르지 못함
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/ad3172a9-7d52-422b-8a02-bb78ee0e9f94)
+
 
 
             
