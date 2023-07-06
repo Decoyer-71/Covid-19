@@ -16,6 +16,9 @@
     2) 구성
         - 각 Label(COVID, Lung_Opacity, Normal, Viral Pneumonia) 폴더 별 images와 masks 폴더로 구성
         - images 폴더의 데이터만 활용
+    3) 샘플 이미지
+![image](https://github.com/Decoyer-71/Covid-19/assets/127948197/6ef84cd8-0b83-4e22-bd68-810a892fe716)
+
 
 ## 2. 프로젝트 개요
     1) 목표 : Testing 결과 acc 0.90 이상 정확도 
